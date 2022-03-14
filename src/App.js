@@ -2,13 +2,14 @@ import NavBar from './Components/NavBar/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
 import './App.css';
+import ItemListContainer from './Components/ItemListContainer';
 
 function App() {
   return (
     <div className="App">
 
       <NavBar />
-      <img src={logo} className="App-logo" alt="logo" />
+      <ItemListContainer itemListContainerProps={ "Hola ListContainer" } />
         
       
     </div>
